@@ -28,6 +28,8 @@
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.0.9",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
     "luxon": "^1.25.0",
     "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^6.0.1",
@@ -40,5 +42,14 @@
     "stylelint-prettier": "^1.1.2",
     "stylelint-scss": "^3.18.0"
   },
-  "private": true
+  "private": true,
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.css": "stylelint --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
 }
