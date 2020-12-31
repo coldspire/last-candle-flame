@@ -2,6 +2,15 @@
 
 Just another blog from a guy.
 
+## Workflow
+Posts are written and pushed from [Forestry.io](https://forestry.io/).
+
+New posts are sent from Forestry to the `staging` branch. 
+
+When time to publish one or more posts to the web, `staging` is merged to `main`. 
+
+Finally, Netlify sees the `main` branch update, and then builds and deploys the site to [https://fotlc.netlify.app/](https://fotlc.netlify.app/).
+
 ### CL commands
 
 ```
