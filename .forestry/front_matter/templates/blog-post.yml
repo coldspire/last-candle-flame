@@ -30,3 +30,5 @@ fields:
   label: layout
   hidden: true
   default: layouts/post.njk
+pages:
+- posts/test-post-from-forestry.io.md
