@@ -1,20 +1,20 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Flame of the Last Candle",
+  "url": "https://thelastcandle.net/",
+  "description": "Writing as a dad, husband, baker, cyclist, software engineer",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Writing as a dad, husband, baker, cyclist, software engineer",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://thelastcandle.net/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://thelastcandle.net/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Owen Anderson",
+    "email": "owenra at gmail",
+    "url": "https://thelastcandle.net/about-me/"
   }
 }
