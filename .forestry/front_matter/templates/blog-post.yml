@@ -21,10 +21,11 @@ fields:
   default: now
 - type: text
   name: tags
-  label: tags
+  label: Tags
   config:
     required: true
   default: needs-tag
+  description: A single tag, or an array of tags (e.g. "['coding', 'rxjs']")
 - type: text
   name: layout
   label: layout
