@@ -2,13 +2,13 @@
 date: 2020-12-31
 tags: "['coding', 'rxjs', 'learning']"
 layout: layouts/post.njk
-title: 'Mapping Out '
+title: Mapping Out with RxJS
 description: How I finally came to understand the RxJS flattening operators.
 
 ---
 ### The journey
 
-The Pluralsight course "Play by Play: Angular and ngrx," \[VERIFY AND GET LINK\] Duncan Hunter mentions that the learning curve of \[RxJS\]([https://rxjs-dev.firebaseapp.com/](https://rxjs-dev.firebaseapp.com/) "https://rxjs-dev.firebaseapp.com/") can be visualized through a repeated pattern of small flat periods of understanding followed by sheer ascents of struggle. This post is about my latest journey through one of those ascents: struggling to understand the flattening operators of RxJS. 
+The Pluralsight course "Play by Play: Angular and ngrx," \[VERIFY AND GET LINK\] Duncan Hunter mentions that the learning curve of [RxJS](https://rxjs-dev.firebaseapp.com/ "RxJS home page") can be visualized through a repeated pattern of small flat periods of understanding followed by sheer ascents of struggle. This post is about my latest journey through one of those ascents: struggling to understand the flattening operators of RxJS.
 
 #### The accused
 
